@@ -107,6 +107,7 @@ def game_loop() -> int:
     return score
 
 def launch_game() -> None:
+    #game start function
     score = game_loop()
     print(f'You got a score of {score:.2f}')
 
